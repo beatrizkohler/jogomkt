@@ -28,6 +28,13 @@ h2{
 .ajustestLateral{
   margin-right: 25px;
 }
+
+  .button-neutro {
+  color: var(--preto);
+  background-color: var(--fundo);
+  border-color: var(--preto);
+  }
+
   .button-azul {
     color: var(--preto);
     background-color: var(--azul);
@@ -35,16 +42,25 @@ h2{
   }
 
   .button-vermelho {
+    color: var(--preto);
     background-color: var(--vermelho);
     border-color: var(--vermelho);
   }
 
   .button-amarelo{
+    color: var(--preto);
     background-color: var(--amarelo);
+    border-color: var(--amarelo);
+  }
+
+  .button-verde{
+    color: var(--preto);
+    background-color: var(--verde);
+    border-color: var(--verde);
   }
   
   .button-primary:hover {
-    background-color: var(--primary-dark);
+    background-color: var(--preto);
     border-color: var(--primary-dark);
   }
   
