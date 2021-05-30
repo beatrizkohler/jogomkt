@@ -1,0 +1,30 @@
+.button {
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  
+  .button-azul {
+    background-color: var(--azul);
+    border-color: var(--azul);
+  }
+
+  .button-vermelho {
+    background-color: var(--vermelho);
+    border-color: var(--vermelho);
+  }
+  
+  .button-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+  }
+  
+  .button-primary-outline {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  
+  .button-primary-outline:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+  }
