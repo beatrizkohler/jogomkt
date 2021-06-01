@@ -17,6 +17,11 @@ class IndexRoute {
             layout: "layout",
         });
     }
+    async criarPergunta(req, res) {
+        res.render("criar-pergunta.ejs", {
+            layout: "layout",
+        });
+    }
     async dadosBanca(req, res) {
         res.render("pergunta.ejs", {
             layout: "layout",
@@ -27,6 +32,9 @@ class IndexRoute {
 __decorate([
     app.route.methodName(app.root + "/fase")
 ], IndexRoute.prototype, "fase", null);
+__decorate([
+    app.route.methodName(app.root + "/criar-pergunta")
+], IndexRoute.prototype, "criarPergunta", null);
 __decorate([
     app.route.methodName(app.root + "/pergunta")
 ], IndexRoute.prototype, "dadosBanca", null);

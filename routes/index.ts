@@ -14,6 +14,12 @@ class IndexRoute {
       layout: "layout",
     });
   }
+  @app.route.methodName( app.root + "/criar-pergunta")
+  public async criarPergunta(req: app.Request, res: app.Response) {
+    res.render("criar-pergunta.ejs", {
+      layout: "layout",
+    });
+  }
 
   @app.route.methodName( app.root + "/pergunta")
 	public async dadosBanca(req: app.Request, res: app.Response) {
