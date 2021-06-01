@@ -1,20 +1,17 @@
-
-
-  <body>
-        <form>
-            <div container-fluid>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img src="assets/baixa.png"/>
-                    </div>
-                    <div class="col-sm-6">
-                        <h2>Selecione a dificuldade da pergunta</h2>
-                        <button type="submit" class="btn btn-primary button button-primary ajustestLateral">FÁCIL</button>
-                        <button type="submit" class="btn btn-primary button button-primary button-amarelo ajustestLateral">MÉDIO</button>
-                        <button type="submit" class="btn btn-primary button button-primary button-vermelho">DIFÍCIL</button>
-                    </div>
-                </div>
-                
+<form>
+    <div container-fluid>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="/public/assets/baixa.png" />
             </div>
-        </form>
-  
+            <div class="col-sm-6">
+                <h2>Selecione a dificuldade da pergunta</h2>
+                <a href="<%- root %>/pergunta" class="btn btn-primary button button-primary ajustestLateral">FÁCIL</a>
+                <a href="<%- root %>/pergunta"
+                    class="btn btn-primary button button-primary button-amarelo ajustestLateral">MÉDIO</a>
+                <a href="<%- root %>/pergunta" class="btn btn-primary button button-primary button-vermelho">DIFÍCIL</a>
+            </div>
+        </div>
+
+    </div>
+</form>
